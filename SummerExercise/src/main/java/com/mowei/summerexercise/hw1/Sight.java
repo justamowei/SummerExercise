@@ -7,8 +7,8 @@ public class Sight implements Serializable {
     private String zone;
     private String category;
     private String photoURL;
-    private String address;
     private String description;
+    private String address;
 
     public String getSightName() {
         return sightName;
