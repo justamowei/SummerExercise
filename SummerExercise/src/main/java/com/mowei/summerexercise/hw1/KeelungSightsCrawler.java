@@ -6,6 +6,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,6 +57,8 @@ public class KeelungSightsCrawler {
                     }
                 }
             }
+        } catch (SocketTimeoutException e) {
+            System.err.println(e.getMessage());
         } catch (IOException e) {
             e.printStackTrace();
         }
