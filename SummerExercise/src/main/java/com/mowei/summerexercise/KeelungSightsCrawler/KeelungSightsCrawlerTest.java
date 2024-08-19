@@ -1,4 +1,6 @@
-package com.secret.summerexercise.hw1;
+package com.secret.summerexercise.KeelungSightsCrawler;
+
+import com.secret.summerexercise.Sight;
 
 public class KeelungSightsCrawlerTest {
 

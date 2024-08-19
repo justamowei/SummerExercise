@@ -53,14 +53,14 @@
             })
             .then(data => {
                 console.log("Data received:", data);
-                displayAttractions(data);
+                displaySights(data);
             })
             .catch(error => {
-                console.error("There has been a problem with your fetch operation:", error);
+                console.error("There is an error occurred:", error);
             });
     }
 
-    function displayAttractions(data) {
+    function displaySights(data) {
         let sightsContainer = document.getElementById("sights");
         sightsContainer.innerHTML = "";
 

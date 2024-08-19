@@ -1,5 +1,6 @@
-package com.secret.summerexercise.hw1;
+package com.secret.summerexercise.KeelungSightsCrawler;
 
+import com.secret.summerexercise.Sight;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
