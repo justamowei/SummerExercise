@@ -1,5 +1,6 @@
-package com.mowei.summerexercise.hw1;
+package com.mowei.summerexercise.KeelungSightsCrawler;
 
+import com.mowei.summerexercise.Sight;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

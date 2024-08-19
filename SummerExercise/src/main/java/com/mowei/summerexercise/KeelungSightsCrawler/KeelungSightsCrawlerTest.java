@@ -1,4 +1,6 @@
-package com.mowei.summerexercise.hw1;
+package com.mowei.summerexercise.KeelungSightsCrawler;
+
+import com.mowei.summerexercise.Sight;
 
 public class KeelungSightsCrawlerTest {
 
