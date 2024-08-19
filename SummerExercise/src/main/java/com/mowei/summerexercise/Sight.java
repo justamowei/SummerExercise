@@ -1,8 +1,14 @@
-package com.secret.summerexercise.hw1;
+package com.secret.summerexercise;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
 
+@Document(collection = "sights")
 public class Sight implements Serializable {
+    @Id
+    private String id;
     private String sightName;
     private String zone;
     private String category;
@@ -57,6 +63,10 @@ public class Sight implements Serializable {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public String getId() { return id; }
+
+    public void setId(String id) { this.id = id; }
 
     @Override
     public String toString() {
