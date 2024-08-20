@@ -13,7 +13,7 @@ import java.util.List;
 
 public class KeelungSightsCrawler {
 
-    private static final int CONNECTION_TIMEOUT = 50000;
+    private static final int CONNECTION_TIMEOUT = 60000;
 
     public Sight[] getSights(String targetZone) {
         List<Sight> sightList = new ArrayList<>();

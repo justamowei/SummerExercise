@@ -44,7 +44,7 @@
 <script>
     function fetchData(zone) {
         console.log(`fetchData called with zone: ${zone}`);
-        fetch(`http://127.0.0.1:8080/SightAPI?zone=${zone}`)
+        fetch(`https://summerexercise.onrender.com/SightAPI?zone=${zone}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Network response with error");

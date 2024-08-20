@@ -37,7 +37,7 @@ public class DBInitializer implements ApplicationRunner {
                 }
             }
         }
-        System.out.println("Data saved or updated in MongoDB.");
+        System.out.println("Data saved in MongoDB.");
     }
 }
 
