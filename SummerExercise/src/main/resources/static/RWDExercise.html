@@ -36,7 +36,7 @@
         </div>
     </div>
     <div id="sights" class="row">
-        <!-- 景點卡片會在這裡動態生成 -->
+        <!-- Card會在這裡生成 -->
     </div>
 </div>
 
@@ -44,7 +44,7 @@
 <script>
     function fetchData(zone) {
         console.log(`fetchData called with zone: ${zone}`);
-        fetch(`https://summerexercise.onrender.com/SightAPI?zone=${zone}`)
+        fetch(`/SightAPI?zone=${zone}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Network response with error");
