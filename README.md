@@ -10,4 +10,5 @@
 
 ## 更新
 移除HomeController，直接將RWD網頁放置resources\static底下 <br>
-將RWD讀取API的路徑改為相對路徑 <br>
+RWD讀取API的路徑改為相對路徑 <br>
+區的按鈕改成固定三個一列，不會隨螢幕大小變動 <br>
