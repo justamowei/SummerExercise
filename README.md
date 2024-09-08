@@ -9,5 +9,5 @@
 如果進不去的話，請等他一陣子，因為只要近期沒有活動，他會暫停服務以節省資源，所以要等他重啟一下~
 
 ## 更新
-1. 移除HomeController，直接將RWD網頁放置resources\static底下 <br>
-2. 將RWD讀取API的路徑改為相對路徑 <br>
+移除HomeController，直接將RWD網頁放置resources\static底下 <br>
+將RWD讀取API的路徑改為相對路徑 <br>
