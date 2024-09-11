@@ -1,6 +1,6 @@
-package com.secret.summerexercise.KeelungSightsCrawler;
+package com.mowei.summerexercise.KeelungSightsCrawler;
 
-import com.secret.summerexercise.Sight;
+import com.mowei.summerexercise.Sight;
 
 public class KeelungSightsCrawlerTest {
 

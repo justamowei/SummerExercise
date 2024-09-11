@@ -1,6 +1,6 @@
-package com.secret.summerexercise;
+package com.mowei.summerexercise;
 
-import com.secret.summerexercise.KeelungSightsCrawler.KeelungSightsCrawler;
+import com.mowei.summerexercise.KeelungSightsCrawler.KeelungSightsCrawler;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

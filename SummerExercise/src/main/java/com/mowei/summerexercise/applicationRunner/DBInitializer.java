@@ -1,8 +1,8 @@
-package com.secret.summerexercise.applicationRunner;
+package com.mowei.summerexercise.applicationRunner;
 
-import com.secret.summerexercise.KeelungSightsCrawler.KeelungSightsCrawler;
-import com.secret.summerexercise.Sight;
-import com.secret.summerexercise.repository.SightsRepository;
+import com.mowei.summerexercise.KeelungSightsCrawler.KeelungSightsCrawler;
+import com.mowei.summerexercise.Sight;
+import com.mowei.summerexercise.repository.SightsRepository;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;

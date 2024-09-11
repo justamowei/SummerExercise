@@ -1,4 +1,4 @@
-package com.secret.summerexercise.config;
+package com.mowei.summerexercise.config;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Configuration;

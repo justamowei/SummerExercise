@@ -1,4 +1,4 @@
-package com.secret.summerexercise.controller;
+package com.mowei.summerexercise.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

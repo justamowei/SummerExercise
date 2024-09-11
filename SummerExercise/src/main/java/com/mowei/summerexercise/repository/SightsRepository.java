@@ -1,6 +1,6 @@
-package com.secret.summerexercise.repository;
+package com.mowei.summerexercise.repository;
 
-import com.secret.summerexercise.Sight;
+import com.mowei.summerexercise.Sight;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

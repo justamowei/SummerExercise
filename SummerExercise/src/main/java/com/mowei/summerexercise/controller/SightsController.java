@@ -1,9 +1,9 @@
-package com.secret.summerexercise.controller;
+package com.mowei.summerexercise.controller;
 
-import com.secret.summerexercise.KeelungSightsCrawler.KeelungSightsCrawler;
-import com.secret.summerexercise.Sight;
+import com.mowei.summerexercise.KeelungSightsCrawler.KeelungSightsCrawler;
+import com.mowei.summerexercise.Sight;
 
-import com.secret.summerexercise.service.SightsService;
+import com.mowei.summerexercise.service.SightsService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
